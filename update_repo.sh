@@ -1,11 +1,11 @@
 #!/bin/sh
 
-export LC_ALL=en_US.ISO-8859-1
-export LANG=en_US.ISO-8859-1
+export LC_ALL=en_US.cp1251
+export LANG=en_US.cp1251
 
 git config --global core.quotepath off
 git config --global core.precomposeunicode true
-git config --global core.editor "vim -c ':set encoding=ISO-8859-1'"
+git config --global core.editor "vim -c ':set encoding=cp1251'"
 
 cd ~/printer_data/config
 
